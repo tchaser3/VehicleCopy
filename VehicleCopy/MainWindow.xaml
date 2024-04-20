@@ -1,0 +1,14 @@
+﻿<Window x:Class="VehicleCopy.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VehicleCopy"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Button x:Name="btnProcess" Content="Process" HorizontalAlignment="Left" Margin="624,202,0,0" VerticalAlignment="Top" Width="136" Height="58" FontSize="18" Click="btnProcess_Click"/>
+        <DataGrid x:Name="dgrResults" HorizontalAlignment="Left" Height="399" Margin="10,10,0,0" VerticalAlignment="Top" Width="590"/>
+
+    </Grid>
+</Window>
